@@ -1,5 +1,6 @@
 project:
   title: "Sheffield_conference"
+  output-dir: docs
 
 editor: visual
 
