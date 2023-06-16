@@ -21,11 +21,11 @@ author: <a href="https://www.ucl.ac.uk/bartlett/casa/people/dr-andrew-maclachlan
   <span><a href="https://github.com/andrewmaclachlan?tab=repositories"><i class="fab fa-github"></i> andrewmaclachlan</a></span> <br><br>
   <span><a href="mailto:a.maclachlan@ucl.ac.uk"><i class="fa fa-envelope"></i> a.maclachlan@ucl.ac.uk</a></span>
 title-slide-attributes:
-  data-background-image: ../img/CASA_Logo_no_text.png
+  data-background-image: "img/CASA_Logo_no_text.png"
   data-background-size: cover
   data-background-position: center
   data-background-opacity: '0.17'
-logo: ../img/CASA_logo.png
+logo: "img/CASA_logo.png"
 ---
 
 ## Talk overview
