@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "Sheffield_conference.html#talk-overview",
+    "href": "Sheffield_conference.html#talk-overview",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Talk overview",
+    "text": "Talk overview\n\n\n\nRationale for teaching and research agenda points\nWhy bother with it?\nModule and assessment changes\nOutcomes\nFuture work"
+  },
+  {
+    "objectID": "Sheffield_conference.html#who-am-i",
+    "href": "Sheffield_conference.html#who-am-i",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Who am i",
+    "text": "Who am i\n\n\n\nLecturer in Spatial Data Science and Visualization at CASA, UCL\nRun our main MSc programme\nLead modules in:\n\nGeographic information systems and science\nRemotely sensing cities and environments\n\n\n\nRight column"
+  },
+  {
+    "objectID": "Sheffield_conference.html#agendas",
+    "href": "Sheffield_conference.html#agendas",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Agendas",
+    "text": "Agendas"
+  },
+  {
+    "objectID": "Sheffield_conference.html#section",
+    "href": "Sheffield_conference.html#section",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "Research\n\nTo have meaningful real world impact on the sustainability of our cities\nOperatialising emerging geo-spatial tools for decision making\nPlace the needs and constraints of decision makers at the heart of all work"
+  },
+  {
+    "objectID": "Sheffield_conference.html#section-1",
+    "href": "Sheffield_conference.html#section-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "Research\n\nTo have meaningful real world impact on the sustainability of our cities\nOperatialising emerging geo-spatial tools for decision making\nPlace the needs and constraints of decision makers at the heart of all work\n\nTeaching\n\nEmpower students to become leading activists in urban spatial science\nEquip students with spatial skills for the interpretation of urban data leading to data-informed decisions\nInstill critical thought based on a solid theoretical and technical foundation to see through buzz words and hype that are often associated with smart cities / urban analytics."
+  },
+  {
+    "objectID": "Sheffield_conference.html#being-able-to-reproduce-my-own-content-is-essential-to-these",
+    "href": "Sheffield_conference.html#being-able-to-reproduce-my-own-content-is-essential-to-these",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Being able to reproduce my own content is essential to these",
+    "text": "Being able to reproduce my own content is essential to these"
+  },
+  {
+    "objectID": "Sheffield_conference.html#what-led-me-here",
+    "href": "Sheffield_conference.html#what-led-me-here",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "What led me here?",
+    "text": "What led me here?\n\n\n\nLecture with Carl Howe\n\n\n2017, 90% of the data in the world today has been created in the last two years alone, at 2.5 quintillion bytes of data a day! - IBM"
+  },
+  {
+    "objectID": "Sheffield_conference.html#data-is-often-misrepresented.",
+    "href": "Sheffield_conference.html#data-is-often-misrepresented.",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Data is often misrepresented….",
+    "text": "Data is often misrepresented…."
+  },
+  {
+    "objectID": "Sheffield_conference.html#ok-what-about-geographic-data",
+    "href": "Sheffield_conference.html#ok-what-about-geographic-data",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Ok, what about geographic data",
+    "text": "Ok, what about geographic data"
+  },
+  {
+    "objectID": "Sheffield_conference.html#a-shifting-landscape",
+    "href": "Sheffield_conference.html#a-shifting-landscape",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "A shifting landscape",
+    "text": "A shifting landscape\n\n\nPaper: Opening practice: supporting reproducibility and critical spatial data science\n\nA comparison of Geographical Weighted regression across:\n\n4 open software packages\n2 black box / commercial implementations\n\n\n\n\n\nAll of the implementations were tested with the same input data. They all gave the same results except the ESRI/ArcGIS implementation (Li 2018), and although ESRI provide help for the GWR tools, the actual coding is closed—the underlying code is not revealed\n\n\nSource: Brunsdon and Comber, 2021"
+  },
+  {
+    "objectID": "Sheffield_conference.html#a-slight-tangent",
+    "href": "Sheffield_conference.html#a-slight-tangent",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "A slight tangent",
+    "text": "A slight tangent"
+  },
+  {
+    "objectID": "Sheffield_conference.html#who-has-made-our-boundary-data",
+    "href": "Sheffield_conference.html#who-has-made-our-boundary-data",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Who has made our boundary data?",
+    "text": "Who has made our boundary data?"
+  },
+  {
+    "objectID": "Sheffield_conference.html#who-has-made-manipulated-our-boundary-data",
+    "href": "Sheffield_conference.html#who-has-made-manipulated-our-boundary-data",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Who has made manipulated our boundary data?",
+    "text": "Who has made manipulated our boundary data?"
+  },
+  {
+    "objectID": "Sheffield_conference.html#who-has-manipulated-our-boundary-data",
+    "href": "Sheffield_conference.html#who-has-manipulated-our-boundary-data",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Who has manipulated our boundary data?",
+    "text": "Who has manipulated our boundary data?\nRedlining\n\n\n\n1930s – American Home Owner’s Loan Corporation – prevent missed payments…residential security maps based on race\n\nPeople abandon redlined areas\nCan’t refinance\nLess property tax for services\n\n\n\n\n\n\nLos Angeles Redlining"
+  },
+  {
+    "objectID": "Sheffield_conference.html#who-has-manipulated-our-boundary-data-1",
+    "href": "Sheffield_conference.html#who-has-manipulated-our-boundary-data-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Who has manipulated our boundary data?",
+    "text": "Who has manipulated our boundary data?\nGerrymandering\n\n\nEvery 10 years electoral districts are re-drawn “redistricting”– Thomas Hofeller (republican) = PACK and CRACK\n\nPACK = put all the democrat voters in 1 district\nCRACK = sprinkle them out so they never have majority"
+  },
+  {
+    "objectID": "Sheffield_conference.html#section-3",
+    "href": "Sheffield_conference.html#section-3",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "“Redistricting is democracy at work” - Tom Hofeller"
+  },
+  {
+    "objectID": "Sheffield_conference.html#how-do-i-teach-reproducibility-and-data-bias-awareness",
+    "href": "Sheffield_conference.html#how-do-i-teach-reproducibility-and-data-bias-awareness",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "How do I teach reproducibility and data bias awareness",
+    "text": "How do I teach reproducibility and data bias awareness\n\n\n\n\n1. Lead by example\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n2. Don’t assess it, make it mandatory for the assessment*"
+  },
+  {
+    "objectID": "Sheffield_conference.html#lead-by-example-1",
+    "href": "Sheffield_conference.html#lead-by-example-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Lead by example",
+    "text": "Lead by example\n\nTraditional labs and were distributed in pdfs, word documents and powerpoints.\nUsed ArcGIS 💰"
+  },
+  {
+    "objectID": "Sheffield_conference.html#lead-by-example-2",
+    "href": "Sheffield_conference.html#lead-by-example-2",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "1. Lead by example",
+    "text": "1. Lead by example\nProblems:\n\n\nStatic\nRequire updates with software / data\n\n\n\n\nMaterial is in a pdf\nNot easily searchable, limits it to a one time use\n\n\n\n\nA lot of time invested\nOnly used by students on the module\n\n\n\n\nalumni, academia and industry value programmatic and importantly reproducible GIS analysis"
+  },
+  {
+    "objectID": "Sheffield_conference.html#b.-listen-to-alumni-employers-1",
+    "href": "Sheffield_conference.html#b.-listen-to-alumni-employers-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "1b. Listen to Alumni / employers",
+    "text": "1b. Listen to Alumni / employers"
+  },
+  {
+    "objectID": "Sheffield_conference.html#design-and-outputs",
+    "href": "Sheffield_conference.html#design-and-outputs",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Design and outputs",
+    "text": "Design and outputs"
+  },
+  {
+    "objectID": "Sheffield_conference.html#design-and-outputs-1",
+    "href": "Sheffield_conference.html#design-and-outputs-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Design and outputs",
+    "text": "Design and outputs\n\nCourse divided into two parts:\n\nPart 1: GIS tools\nPart 2: GIS analysis\n\n\nIn part 2 we shift from subject based to problem based learning….\nEach practical answers a question….\n\n\nWhat are the factors that might lead to variation in Average GCSE point scores across the city?"
+  },
+  {
+    "objectID": "Sheffield_conference.html#design-and-outputs-2",
+    "href": "Sheffield_conference.html#design-and-outputs-2",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Design and outputs",
+    "text": "Design and outputs\n\nIt is not enough to simply give students some material and hope they will immediately learn it. Learning happens by doing\n\n\n\nWeekly homework that we dedicate time to discussing\n\nWeek 1-5 tasks\nWeek 6-9 practice exam"
+  },
+  {
+    "objectID": "Sheffield_conference.html#design-and-output",
+    "href": "Sheffield_conference.html#design-and-output",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Design and output",
+    "text": "Design and output\nPart 1: GIS tools…\n\nYou need calculate the average percent of science students (in all) grades per county meeting the required standards and produce a map to show where the Country averages are above or below the State of Washington average."
+  },
+  {
+    "objectID": "Sheffield_conference.html#section-5",
+    "href": "Sheffield_conference.html#section-5",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "Source: Allison Horst"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment\nPrevious iterations\n\nYour task is to carry out a mini research project which answers a pertinent or topical geo-spatial question\n\n\n\n\n\n\n\n\nNote\n\n\nStudents struggled to come up with a question, source data and apply it\n\nPlagiarism\nPoor applications\nVery unbalanced reports"
+  },
+  {
+    "objectID": "Sheffield_conference.html#what-are-we-assessing",
+    "href": "Sheffield_conference.html#what-are-we-assessing",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "What are we assessing?",
+    "text": "What are we assessing?"
+  },
+  {
+    "objectID": "Sheffield_conference.html#can-they-apply-the-tools-methods-with-different-scenarios-and-data",
+    "href": "Sheffield_conference.html#can-they-apply-the-tools-methods-with-different-scenarios-and-data",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Can they apply the tools / methods with different scenarios and data ?",
+    "text": "Can they apply the tools / methods with different scenarios and data ?"
+  },
+  {
+    "objectID": "Sheffield_conference.html#section-6",
+    "href": "Sheffield_conference.html#section-6",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-1",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment\nPart 2: GIS analysis\n\n\nExample practice question\n\nNew York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.\n\nData:\n\nList of evictions\nNew York City community districts"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-2",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-2",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-3",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-3",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment\nGitHub classroom - setup\n\nCreate a template repository “submission”\nImport to an “organisation” - shared folder that staff can access\nGitHub classroom creates a URL for the template"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-4",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-4",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment\nStudents\n\nClick the URL and generates a new repository\nStaff can see their work and when they make edits (commit / push)"
+  },
+  {
+    "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-5",
+    "href": "Sheffield_conference.html#make-it-mandatory-for-the-assessment-5",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "2. Make it mandatory for the assessment",
+    "text": "2. Make it mandatory for the assessment\nEnd of exam\n\nBulk download through the GitHub classroom desktop application\nRun the student’s code locally\nSee how often the student edited the code"
+  },
+  {
+    "objectID": "Sheffield_conference.html#outcomes",
+    "href": "Sheffield_conference.html#outcomes",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Outcomes",
+    "text": "Outcomes\nLess (almost no) plagiarism\nMarks have improved\nAll students learn to use reproducibility tools\nThe tool is not directly assessed\nGlobal use and interaction with the resource"
+  },
+  {
+    "objectID": "Sheffield_conference.html#current-advancements",
+    "href": "Sheffield_conference.html#current-advancements",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Current advancements",
+    "text": "Current advancements\n\n\nNew term 2 module - Remotely sensing cities and environments\n\n\n\n\nPresentation hosted online - Xaringan\nWeekly online portfolio - Quarto"
+  },
+  {
+    "objectID": "Sheffield_conference.html#tools-are-expected-not-assessed",
+    "href": "Sheffield_conference.html#tools-are-expected-not-assessed",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Tools are expected not assessed",
+    "text": "Tools are expected not assessed"
+  },
+  {
+    "objectID": "Sheffield_conference.html#tools-are-expected-not-assessed-1",
+    "href": "Sheffield_conference.html#tools-are-expected-not-assessed-1",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Tools are expected not assessed",
+    "text": "Tools are expected not assessed"
+  },
+  {
+    "objectID": "Sheffield_conference.html#conclusion",
+    "href": "Sheffield_conference.html#conclusion",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Conclusion",
+    "text": "Conclusion\n\n\nLead by example\n\n\nTools become the norm\n\n\nRespond to industry requirements\n\n\nConsider what needs assessing\n\n\n\nGI systems and science • Andy MacLachlan"
+  }
+]
