@@ -1,0 +1,456 @@
+---
+format: 
+    revealjs:
+      include-in-header: [assets/header.html]
+      chalkboard: true
+      slide-number: c/t
+  #    width: 1600
+  #    height: 900
+      footer: "GI systems and science • Andy MacLachlan"
+      highlight-style: github
+      code-copy: true
+      code-line-numbers: true
+      controls: true
+  #    css: ["theme/theme.css"]
+      theme: [serif, slides.scss]
+      echo: true
+title: Reproducible geographical information Systems and Science
+#subtitle: Slides with revealjs
+author: <a href="https://www.ucl.ac.uk/bartlett/casa/people/dr-andrew-maclachlan">Andy MacLachlan</a><br> The Barlett Centre for Advanced Spatial Analysis, UCL <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /><div class="container">
+  <span><a href="https://twitter.com/andymaclachlan"><i class="fab fa-twitter"></i> andymaclachlan</a></span><br><br>
+  <span><a href="https://github.com/andrewmaclachlan?tab=repositories"><i class="fab fa-github"></i> andrewmaclachlan</a></span> <br><br>
+  <span><a href="mailto:a.maclachlan@ucl.ac.uk"><i class="fa fa-envelope"></i> a.maclachlan@ucl.ac.uk</a></span>
+title-slide-attributes:
+  data-background-image: ../img/CASA_Logo_no_text.png
+  data-background-size: cover
+  data-background-position: center
+  data-background-opacity: '0.17'
+logo: ../img/CASA_logo.png
+---
+
+## Talk overview
+
+::: columns
+::: {.column width="49%"}
+-   Rationale for teaching and research agenda points
+
+-   Why bother with it?
+
+-   Module and assessment changes
+
+-   Outcomes
+
+-   Future work
+:::
+
+::: {.column width="49%"}
+```{=html}
+<iframe width="780" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe>
+```
+:::
+:::
+
+## Who am i
+
+::: columns
+::: {.column width="49%"}
+-   Lecturer in Spatial Data Science and Visualization at CASA, UCL
+
+-   Run our main MSc programme
+
+-   Lead modules in:
+
+    -   Geographic information systems and science
+    -   Remotely sensing cities and environments
+:::
+
+::: {.column width="49%"}
+Right column
+:::
+:::
+
+## Agendas {.center}
+
+##  {auto-animate="true"}
+
+### Research {auto-animate="true"}
+
+-   To have meaningful real world impact on the sustainability of our cities
+
+-   Operatialising emerging geo-spatial tools for decision making
+
+-   Place *the needs and constraints* of decision makers at the heart of all work
+
+##  {auto-animate="true"}
+
+### Research
+
+-   To have meaningful real world impact on the sustainability of our cities
+
+-   Operatialising emerging geo-spatial tools for decision making
+
+-   Place *the needs and constraints* of decision makers at the heart of all work
+
+### Teaching
+
+-   Empower students to become leading activists in urban spatial science
+
+-   Equip students with spatial skills for the interpretation of urban data leading to data-informed decisions
+
+-   Instill critical thought based on a solid theoretical and technical foundation to see through *buzz words and hype* that are often associated with smart cities / urban analytics.
+
+## Being able to **reproduce my own content is essential to these** {.center}
+
+## What led me here? {.center}
+
+::: columns
+::: {.column width="49%"}
+-   Lecture with Carl Howe
+
+> 2017, 90% of the data in the world today has been created in the last two years alone, at 2.5 quintillion bytes of data a day! - IBM
+:::
+
+::: {.column width="49%"}
+![](img/carlhowe.jpg){fig-align="center" width="350"}
+:::
+:::
+
+## Data is often misrepresented....
+
+![](img/canada_election.png){fig-align="center"}
+
+## Ok, what about **geographic data** {.center}
+
+## 
+
+![](img/Chris-Brunsdon.jpg){fig-align="center" width="800" height="560"}
+
+## A shifting landscape
+
+::: columns
+::: {.column width="49%"}
+##### Paper: Opening practice: supporting reproducibility and critical spatial data science
+
+-   A comparison of Geographical Weighted regression across:
+    -   4 open software packages
+    -   2 black box / commercial implementations
+:::
+
+::: {.column width="49%"}
+::: fragment
+> All of the implementations were tested with the same input data. **They all gave the same results except the ESRI/ArcGIS** implementation (Li 2018), and although ESRI provide help for the GWR tools, the actual coding is closed---the underlying code is not revealed
+
+::: {style="font-size: 60%;"}
+Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s10109-020-00334-2)
+:::
+:::
+:::
+:::
+
+## A slight tangent {.center}
+
+## Who has made our *boundary* data? {.center}
+
+## Who has ~~made~~ manipulated our *boundary* data? {.center}
+
+## Who has manipulated our *boundary* data?
+
+#### Redlining
+
+::: columns
+::: {.column width="49%"}
+-   1930s -- American Home Owner's Loan Corporation -- prevent missed payments...residential security maps **based on race**
+    -   People abandon redlined areas
+    -   Can't refinance
+    -   Less property tax for services
+:::
+
+::: {.column width="49%"}
+[![Los Angeles Redlining](img/LA_redline.png)](https://dsl.richmond.edu/panorama/redlining/#loc=5/39.1/-94.58&text=downloads)
+:::
+:::
+
+## Who has manipulated our *boundary* data?
+
+#### Gerrymandering
+
+::: columns
+::: {.column width="49%"}
+Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofeller (republican) = **PACK and CRACK**
+
+-   PACK = put all the democrat voters in 1 district
+-   CRACK = sprinkle them out so they never have majority
+:::
+
+::: {.column width="49%"}
+![](img/gerrymandering.png){fig-align="center" width="300"}
+:::
+:::
+
+## 
+
+![](img/tom_hofeller.jpg){fig-align="center" width="400"}
+
+> "Redistricting is democracy at work" - Tom Hofeller
+
+![](img/hofeller_files.png){fig-align="center" width="400"}
+
+## 
+
+![](img/district12.png)
+
+## How do I teach reproducibility and data bias awareness {.center}
+
+\
+
+::: fragment
+### 1. Lead by example
+:::
+
+\
+
+::: fragment
+### 1b. Listen to Alumni / employers
+:::
+
+\
+
+::: fragment
+### 2. Don't assess it, **make it mandatory for the assessment\***
+:::
+
+## Lead by example
+
+-   Traditional labs and were distributed in pdfs, word documents and powerpoints.
+
+-   Used ArcGIS 💰
+
+    ![](img/old_pracs.png){fig-align="center" width="700"}
+
+## 1. Lead by example
+
+Problems:
+
+::: fragment
+-   Static
+-   Require updates with software / data
+:::
+
+::: fragment
+-   Material is in a pdf
+-   Not easily searchable, limits it to a *one time use*
+:::
+
+::: fragment
+-   A lot of time invested
+-   Only used by students on the module
+:::
+
+::: fragment
+> alumni, academia and industry value programmatic and importantly reproducible GIS analysis
+:::
+
+## 1b. Listen to Alumni / employers
+
+::: r-stack
+![](img/job_1.png)
+
+![](img/job_2.png){.fragment}
+
+![](img/job_3.png){.fragment}
+:::
+
+## Design and outputs
+
+```{=html}
+<center><iframe width="800" height="500" src="https://andrewmaclachlan.github.io/CASA0005repo/" title="Quarto Documentation"></iframe></center>
+```
+## Design and outputs
+
+-   Course divided into two parts:
+    -   Part 1: GIS tools
+    -   Part 2: GIS analysis
+
+In part 2 we shift from subject based to problem based learning....
+
+Each practical answers a question....
+
+::: fragment
+> What are the factors that might lead to variation in Average GCSE point scores across the city?
+:::
+
+## Design and outputs
+
+> It is not enough to simply give students some material and hope they will immediately learn it. **Learning happens by doing**
+
+\
+
+Weekly homework that we dedicate time to discussing
+
+  * Week 1-5 tasks
+  * Week 6-9 practice exam
+
+
+## Design and output
+
+##### Part 1: GIS tools...
+
+> You need calculate the average percent of science students (in all) grades per county meeting the required standards and produce a map to show where the Country averages are above or below the State of Washington average.
+
+::: fragment
+![](img/left-join.gif){fig-align="center" width="300"}
+:::
+
+## 
+
+::: r-stack
+![](img/sf.png){fig-align="center" width="700"}
+
+![](img/dragon_regression.png){.fragment fig-align="center" width="700"}
+
+![](img/kmeans_1.jpg){.fragment fig-align="center" width="700"}
+:::
+
+::: {style="font-size: 60%;"}
+Source: [Allison Horst](https://allisonhorst.com/)
+:::
+
+## 2. Make it mandatory for the assessment
+
+##### Previous iterations
+
+> Your task is to carry out a mini research project which answers a pertinent or topical geo-spatial question
+
+::: fragment
+::: {.callout-note collapse="false" appearance="default" icon="true"}
+Students struggled to come up with a question, source data and apply it
+
+-   Plagiarism
+
+-   Poor applications
+
+-   Very unbalanced reports
+:::
+:::
+
+## What are we assessing? {.center}
+
+## Can they apply the tools / methods with different scenarios and data ? {.center}
+
+##  {.center}
+
+### Practice exam (weeks 5-10), 10% {.center}
+
+### Final exam (6 hour open book), 90% {.center}
+
+## 2. Make it mandatory for the assessment
+
+##### Part 2: GIS analysis
+
+\
+
+##### Example practice question
+
+> New York City wish to conduct a study that aims to prevent people being evicted through understand possible related factors.You have been enlisted as a consultant and tasked to conduct an analysis of their data from 2020.
+
+Data:
+
+-   [List of evictions](https://data.cityofnewyork.us/City-Government/Evictions/6z8x-wfk4)
+-   [New York City community districts](https://data.cityofnewyork.us/City-Government/Community-Districts/yfnk-k7r4)
+
+## 2. Make it mandatory for the assessment
+
+![](img/githubclassroom1.png){fig-align="center"}
+
+## 2. Make it mandatory for the assessment
+
+GitHub classroom - setup
+
+-   Create a template repository "submission"
+
+-   Import to an "organisation" - shared folder that staff can access
+
+-   GitHub classroom creates a URL for the template
+
+![](img/template.png){fig-align="center" width="612"}
+
+## 2. Make it mandatory for the assessment
+
+Students
+
+-   Click the URL and generates a new repository
+
+-   Staff can see their work and when they make edits (commit / push)
+
+![](img/student_repo.png){fig-align="center" width="593"}
+
+## 2. Make it mandatory for the assessment
+
+End of exam
+
+-   Bulk download through the GitHub classroom desktop application
+
+-   Run the student's code locally
+
+-   See how often the student edited the code
+
+![](img/assistant.png){fig-align="center"}
+
+## Outcomes
+
+#### Less (almost no) plagiarism
+
+#### Marks have improved
+
+#### All students learn to use reproducibility tools
+
+#### The tool is not directly assessed
+
+#### Global use and interaction with the resource
+
+![](img/global_users.png){fig-align="center"}
+
+## Current advancements
+
+\
+
+### New term 2 module - Remotely sensing cities and environments
+
+\
+
+::: fragment
+#### Presentation hosted online - Xaringan
+
+#### Weekly online portfolio - Quarto
+:::
+
+## Tools are expected not assessed
+
+```{=html}
+<center><iframe width="780" height="500" src="https://hilmanpr21.github.io/CASA0023_group-presentation/?panelset1=social2#1" title="Quarto Documentation"></iframe></center>
+```
+## Tools are expected not assessed
+
+```{=html}
+<center><iframe width="800" height="600" src="https://vtesniere.github.io/CASA0023_book/" title="Quarto Documentation"></iframe></center>
+```
+
+## Conclusion
+
+\
+
+### Lead by example
+
+\
+
+### Tools become the norm
+
+\
+
+### Respond to industry requirements 
+
+\
+
+
+### Consider **what needs** assessing
+
