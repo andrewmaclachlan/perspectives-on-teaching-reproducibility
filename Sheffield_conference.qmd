@@ -121,6 +121,10 @@ Source: [Brunsdon and Comber, 2021](https://link.springer.com/article/10.1007/s1
 :::
 :::
 
+## 
+
+![](img/jack-dangermond.jpg){fig-align="center"}
+
 ## A slight tangent {.center}
 
 ## Who has made our *boundary* data? {.center}
