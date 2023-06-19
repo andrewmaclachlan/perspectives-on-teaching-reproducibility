@@ -11,14 +11,14 @@
     "href": "Sheffield_conference.html#who-am-i",
     "title": "Reproducible geographical information Systems and Science",
     "section": "Who am i",
-    "text": "Who am i\n\n\n\nLecturer in Spatial Data Science and Visualization at CASA, UCL\nRun our main MSc programme\nLead modules in:\n\nGeographic information systems and science\nRemotely sensing cities and environments\n\n\n\nRight column"
+    "text": "Who am i\n\nLecturer in Spatial Data Science and Visualization at CASA, UCL\nHuman Geographer\nRun our main MSc programme\nLead MSc modules in:\n\nGeographic information systems and science\nRemotely sensing cities and environments"
   },
   {
     "objectID": "Sheffield_conference.html#agendas",
     "href": "Sheffield_conference.html#agendas",
     "title": "Reproducible geographical information Systems and Science",
     "section": "Agendas",
-    "text": "Agendas"
+    "text": "Agendas\nTeaching\n\nEmpower students to become leading activists in urban spatial science\nEquip students with spatial skills for the interpretation of urban data leading to data-informed decisions\nInstill critical thought based on a solid theoretical and technical foundation to see through buzz words and hype that are often associated with smart cities / urban analytics."
   },
   {
     "objectID": "Sheffield_conference.html#section",
@@ -32,7 +32,7 @@
     "href": "Sheffield_conference.html#section-1",
     "title": "Reproducible geographical information Systems and Science",
     "section": "",
-    "text": "Research\n\nTo have meaningful real world impact on the sustainability of our cities\nOperatialising emerging geo-spatial tools for decision making\nPlace the needs and constraints of decision makers at the heart of all work\n\nTeaching\n\nEmpower students to become leading activists in urban spatial science\nEquip students with spatial skills for the interpretation of urban data leading to data-informed decisions\nInstill critical thought based on a solid theoretical and technical foundation to see through buzz words and hype that are often associated with smart cities / urban analytics."
+    "text": "“Redistricting is democracy at work” - Tom Hofeller"
   },
   {
     "objectID": "Sheffield_conference.html#being-able-to-reproduce-my-own-content-is-essential-to-these",
@@ -109,14 +109,14 @@
     "href": "Sheffield_conference.html#section-3",
     "title": "Reproducible geographical information Systems and Science",
     "section": "",
-    "text": "“Redistricting is democracy at work” - Tom Hofeller"
+    "text": "Source: Allison Horst"
   },
   {
     "objectID": "Sheffield_conference.html#how-do-i-teach-reproducibility-and-data-bias-awareness",
     "href": "Sheffield_conference.html#how-do-i-teach-reproducibility-and-data-bias-awareness",
     "title": "Reproducible geographical information Systems and Science",
     "section": "How do I teach reproducibility and data bias awareness",
-    "text": "How do I teach reproducibility and data bias awareness\n\n\n\n\n1. Lead by example\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n2. Don’t assess it, make it mandatory for the assessment*"
+    "text": "How do I teach reproducibility and data bias awareness\n\n\n\n\n1. Lead by example\n\n\n\n\n\n1b. Listen to Alumni / employers\n\n\n\n\n\n1c. Learn by doing\n\n\n\n\n\n2. Don’t assess it, make it mandatory for the assessment*"
   },
   {
     "objectID": "Sheffield_conference.html#lead-by-example-1",
@@ -172,7 +172,7 @@
     "href": "Sheffield_conference.html#section-5",
     "title": "Reproducible geographical information Systems and Science",
     "section": "",
-    "text": "Source: Allison Horst"
+    "text": "GI systems and science • Andy MacLachlan"
   },
   {
     "objectID": "Sheffield_conference.html#make-it-mandatory-for-the-assessment",
@@ -270,6 +270,34 @@
     "href": "Sheffield_conference.html#conclusion",
     "title": "Reproducible geographical information Systems and Science",
     "section": "Conclusion",
-    "text": "Conclusion\n\n\nLead by example\n\n\nTools become the norm\n\n\nRespond to industry requirements\n\n\nConsider what needs assessing\n\n\n\nGI systems and science • Andy MacLachlan"
+    "text": "Conclusion\n\n\nLead by example\n\n\nLearn by doing\n\n\nTools become the norm\n\n\nRespond to industry requirements\n\n\nConsider what needs assessing"
+  },
+  {
+    "objectID": "Sheffield_conference.html#section-4",
+    "href": "Sheffield_conference.html#section-4",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "",
+    "text": "Practice exam (weeks 5-10), 10%\nFinal exam (6 hour open book), 90%"
+  },
+  {
+    "objectID": "Sheffield_conference.html#being-able-to-reproduce-content-is-essential-to-these",
+    "href": "Sheffield_conference.html#being-able-to-reproduce-content-is-essential-to-these",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "Being able to reproduce content is essential to these",
+    "text": "Being able to reproduce content is essential to these"
+  },
+  {
+    "objectID": "Sheffield_conference.html#c.-design-and-outputs",
+    "href": "Sheffield_conference.html#c.-design-and-outputs",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "1c. Design and outputs",
+    "text": "1c. Design and outputs\n\nIt is not enough to simply give students some material and hope they will immediately learn it. Learning happens by doing\n\n\n\nWeekly homework that we dedicate time to discussing\n\nWeek 1-5 tasks\nWeek 6-9 practice exam"
+  },
+  {
+    "objectID": "Sheffield_conference.html#c.-design-and-output",
+    "href": "Sheffield_conference.html#c.-design-and-output",
+    "title": "Reproducible geographical information Systems and Science",
+    "section": "1c. Design and output",
+    "text": "1c. Design and output\nPart 1: GIS tools…\n\nYou need calculate the average percent of science students (in all) grades per county meeting the required standards and produce a map to show where the Country averages are above or below the State of Washington average."
   }
 ]

@@ -52,44 +52,18 @@ logo: "img/CASA_logo.png"
 
 ## Who am i
 
-::: columns
-::: {.column width="49%"}
 -   Lecturer in Spatial Data Science and Visualization at CASA, UCL
+
+-   Human Geographer
 
 -   Run our main MSc programme
 
--   Lead modules in:
+-   Lead MSc modules in:
 
     -   Geographic information systems and science
     -   Remotely sensing cities and environments
-:::
-
-::: {.column width="49%"}
-Right column
-:::
-:::
 
 ## Agendas {.center}
-
-##  {auto-animate="true"}
-
-### Research {auto-animate="true"}
-
--   To have meaningful real world impact on the sustainability of our cities
-
--   Operatialising emerging geo-spatial tools for decision making
-
--   Place *the needs and constraints* of decision makers at the heart of all work
-
-##  {auto-animate="true"}
-
-### Research
-
--   To have meaningful real world impact on the sustainability of our cities
-
--   Operatialising emerging geo-spatial tools for decision making
-
--   Place *the needs and constraints* of decision makers at the heart of all work
 
 ### Teaching
 
@@ -99,7 +73,7 @@ Right column
 
 -   Instill critical thought based on a solid theoretical and technical foundation to see through *buzz words and hype* that are often associated with smart cities / urban analytics.
 
-## Being able to **reproduce my own content is essential to these** {.center}
+## Being able to **reproduce content is essential to these** {.center}
 
 ## What led me here? {.center}
 
@@ -216,6 +190,12 @@ Every 10 years electoral districts are re-drawn "redistricting"-- Thomas Hofelle
 \
 
 ::: fragment
+### 1c. Learn by doing
+:::
+
+\
+
+::: fragment
 ### 2. Don't assess it, **make it mandatory for the assessment\***
 :::
 
@@ -271,7 +251,7 @@ Problems:
     -   Part 1: GIS tools
     -   Part 2: GIS analysis
 
-In part 2 we shift from subject based to problem based learning....
+In part 2 we shift from **subject based to problem based** learning....
 
 Each practical answers a question....
 
@@ -279,7 +259,7 @@ Each practical answers a question....
 > What are the factors that might lead to variation in Average GCSE point scores across the city?
 :::
 
-## Design and outputs
+## 1c. Design and outputs
 
 > It is not enough to simply give students some material and hope they will immediately learn it. **Learning happens by doing**
 
@@ -287,11 +267,10 @@ Each practical answers a question....
 
 Weekly homework that we dedicate time to discussing
 
-  * Week 1-5 tasks
-  * Week 6-9 practice exam
+-   Week 1-5 tasks
+-   Week 6-9 practice exam
 
-
-## Design and output
+## 1c. Design and output
 
 ##### Part 1: GIS tools...
 
@@ -434,7 +413,6 @@ End of exam
 ```{=html}
 <center><iframe width="800" height="600" src="https://vtesniere.github.io/CASA0023_book/" title="Quarto Documentation"></iframe></center>
 ```
-
 ## Conclusion
 
 \
@@ -443,14 +421,20 @@ End of exam
 
 \
 
+### Learn by doing
+
+\
+
 ### Tools become the norm
 
 \
 
-### Respond to industry requirements 
+### Respond to industry requirements
 
 \
 
-
 ### Consider **what needs** assessing
 
+## 
+
+![](img/CASA-Social-Image-1.jpg){fig-align="center"}
